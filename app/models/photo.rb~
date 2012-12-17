@@ -1,0 +1,6 @@
+class Photo < ActiveRecord::Base
+  validates :filename, :presence => true
+  attr_accessible :filename
+  has_many :slides
+	
+end
