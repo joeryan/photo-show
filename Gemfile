@@ -36,3 +36,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# include acts_as_list for sorting
+gem 'acts_as_list'
+gem 'acts_as_tree'
