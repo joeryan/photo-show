@@ -1,9 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<% for column in Photo.content_columns %>
 <p>
-  <b>Filename:</b>
-  <%= @photo.filename %>
+  <b><%= column.human_name %></b>
+  <%= @photo.send(column.name) %>
 </p>
+<% end %>
 
 
 <%= link_to 'Edit', edit_photo_path(@photo) %> |

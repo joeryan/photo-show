@@ -1,0 +1,21 @@
+<h1>Listing slidshows</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @slidshows.each do |slidshow| %>
+  <tr>
+    <td><%= link_to 'Show', slidshow %></td>
+    <td><%= link_to 'Edit', edit_slidshow_path(slidshow) %></td>
+    <td><%= link_to 'Destroy', slidshow, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Slidshow', new_slidshow_path %>
