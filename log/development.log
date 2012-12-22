@@ -1722,3 +1722,1358 @@ Served asset /application.js - 304 Not Modified (3ms)
 
 Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-21 03:34:19 +0430
 Served asset /scaffolds.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" [0m
+  Rendered photos/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 253ms (Views: 175.1ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /photos.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /photos.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:20 +0430
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/photos/1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered photos/show.html.erb within layouts/application (61.5ms)
+Completed 200 OK in 73ms (Views: 68.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:24 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/photos/1/edit" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Processing by PhotosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered photos/_form.html.erb (2.8ms)
+  Rendered photos/edit.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:27 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos" 
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:31 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/photos/7" for 127.0.0.1 at 2012-12-22 04:14:36 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered photos/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:37 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" 
+  Rendered photos/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:45 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" [0m
+  Rendered photos/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Served asset /photos.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:52 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:53 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:14:53 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/slideshow" for 127.0.0.1 at 2012-12-22 04:15:00 +0430
+
+ActionController::RoutingError (No route matches [GET] "/slideshow"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/photos/1" for 127.0.0.1 at 2012-12-22 04:18:04 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPhoto Load (0.3ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered photos/show.html.erb within layouts/application (64.0ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (undefined method `img_tag' for #<#<Class:0x0000000341d950>:0x007f3a641b2330>):
+    2: 
+    3: <% for column in Photo.content_columns %>
+    4: <p>
+    5:   <%= img_tag 'photos/' + @photo.filename %>
+    6:   <b><%= column.human_name %></b>
+    7:   <%= @photo.send(column.name) %>
+    8: </p>
+  app/views/photos/show.html.erb:5:in `block in _app_views_photos_show_html_erb__1638313436889353754_69944382162940'
+  app/views/photos/show.html.erb:3:in `each'
+  app/views/photos/show.html.erb:3:in `_app_views_photos_show_html_erb__1638313436889353754_69944382162940'
+  app/controllers/photos_controller.rb:18:in `show'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/photos/1" for 127.0.0.1 at 2012-12-22 04:20:42 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered photos/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /photos/train.jpg - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/train.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:20:43 +0430
+Served asset /photos/train.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/train.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/photos/2" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered photos/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /photos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse.jpg" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /photos/lighthouse.jpg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/lighthouse.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse.jpg" for 127.0.0.1 at 2012-12-22 04:21:09 +0430
+Served asset /photos/lighthouse.jpg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/lighthouse.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/photos/2" for 127.0.0.1 at 2012-12-22 04:22:02 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered photos/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/lighthouse.jpg" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /photos/lighthouse.jpg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/lighthouse.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/photos/lighthouse.jpg" for 127.0.0.1 at 2012-12-22 04:22:03 +0430
+Served asset /photos/lighthouse.jpg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/lighthouse.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/photos/lighthouse.jpg" for 127.0.0.1 at 2012-12-22 04:22:12 +0430
+Served asset /photos/lighthouse.jpg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/lighthouse.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/photos/1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered photos/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /photos/train.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/train.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:22:47 +0430
+Served asset /photos/train.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/train.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:22:52 +0430
+Served asset /photos/train.jpg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/photos/train.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/photos/1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Processing by PhotosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPhoto Load (0.3ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered photos/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/photos/train.jpg" for 127.0.0.1 at 2012-12-22 04:24:37 +0430
+Served asset /photos/train.jpg - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" 
+  Rendered photos/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/train_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/lighthouse_t.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/gargoyle_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/cat_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/cappucino_t.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/building_t.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/bridge_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/bear_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 04:31:28 +0430
+Served asset /photos/baskets_t.jpg - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:34:22 +0430
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos" [0m
+ERROR: compiling _app_views_photos_index_html_erb__2173221578109567543_69944180178380 RAISED /home/joe/projects/git/photos/app/views/photos/index.html.erb:34: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  if @photo_pages.current.previous );@output_buffer.safe_concat('
+                                    ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:36: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  if @photo_pages.current.next );@output_buffer.safe_concat('
+                                ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:38: syntax error, unexpected keyword_ensure, expecting ')'
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_photos_index_html_erb__2173221578109567543_69944180178380(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "photos/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Listing photos</h1>
+
+<table>
+  <tr>
+    <th>Thumbail</th>
+    <th>Filename</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+'); @photos.each do |photo| 
+@output_buffer.safe_concat('  <tr>
+    <td>
+      ');@output_buffer.append= ( link_to(image_tag("photos/#{photo.thumbnail}",
+      			:size =>'75x56',
+			:border => 1),
+		url_for(:action => 'show', :id => photo)
+  		)
+      );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </td>
+    <td>');@output_buffer.append= ( photo.filename );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Show', photo );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Edit', edit_photo_path(photo) );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } );@output_buffer.safe_concat('</td>
+  </tr>
+'); end 
+@output_buffer.safe_concat('</table>
+
+<br />
+
+');@output_buffer.append= ( link_to 'New Photo', new_photo_path );@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to 'Previous Page', {:page => @photo_pages.current.previous}
+  if @photo_pages.current.previous );@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to 'Next Page', {:page => @photo_pages.current.next}
+  if @photo_pages.current.next );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `module_eval'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `compile'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:232:in `compile!'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:144:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:125:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:143:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/joe/projects/git/photos/app/controllers/photos_controller.rb:7:in `index'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:414:in `_run__2002222464284931626__process_action__1287091589075433677__callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:121:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:246:in `block in action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/query_cache.rb:64:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `_run__2478420743673172793__call__980683904773693000__callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:32:in `call_app'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/tagged_logging.rb:22:in `tagged'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/engine.rb:479:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/application.rb:223:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered photos/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (/home/joe/projects/git/photos/app/views/photos/index.html.erb:34: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  if @photo_pages.current.previous );@output_buffer.safe_concat('
+                                    ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:36: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  if @photo_pages.current.next );@output_buffer.safe_concat('
+                                ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:38: syntax error, unexpected keyword_ensure, expecting ')'
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'):
+    31: 
+    32: <%= link_to 'New Photo', new_photo_path %>
+    33: <%= link_to 'Previous Page', {:page => @photo_pages.current.previous}
+    34:   if @photo_pages.current.previous %>
+    35: <%= link_to 'Next Page', {:page => @photo_pages.current.next}
+    36:   if @photo_pages.current.next %>
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 04:35:02 +0430
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" 
+  Rendered photos/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `current' for nil:NilClass):
+    30: <br />
+    31: 
+    32: <%= link_to 'New Photo', new_photo_path %>
+    33: <%= link_to 'Previous Page', {:page => @photo_pages.current.previous} if @photo_pages.current.previous %>
+    34: <%= link_to 'Next Page', {:page => @photo_pages.current.next} if @photo_pages.current.next %>
+  app/views/photos/index.html.erb:33:in `_app_views_photos_index_html_erb__2173221578109567543_69944180741860'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 05:01:42 +0430
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" [0m
+ERROR: compiling _app_views_photos_index_html_erb__3803123360407822228_33374580 RAISED /home/joe/projects/git/photos/app/views/photos/index.html.erb:4: syntax error, unexpected '<', expecting keyword_end
+<table>
+ ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:7: unknown regexp options - th
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:8: syntax error, unexpected '<'
+    <th></th>
+     ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:9: unknown regexp options - th
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:10: syntax error, unexpected '<'
+    <th></th>
+     ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:11: unknown regexp options - tr
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:13: syntax error, unexpected '<'
+<% @photos.each do |photo| @output_buffer.safe_concat('
+ ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:13: syntax error, unexpected keyword_do, expecting keyword_end
+<% @photos.each do |photo| @output_buffer.safe_concat('
+                  ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:36: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_photos_index_html_erb__3803123360407822228_33374580(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "photos/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Listing photos</h1>
+
+');@output_buffer.append=  will_paginate
+<table>
+  <tr>
+    <th>Thumbail</th>
+    <th>Filename</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @photos.each do |photo| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <tr>
+    <td>
+      ');@output_buffer.append= ( link_to(image_tag("photos/#{photo.thumbnail}",
+      			:size =>'75x56',
+			:border => 1),
+		url_for(:action => 'show', :id => photo)
+  		)
+      );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </td>
+    <td>');@output_buffer.append= ( photo.filename );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Show', photo );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Edit', edit_photo_path(photo) );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } );@output_buffer.safe_concat('</td>
+  </tr>
+'); end 
+@output_buffer.safe_concat('</table>
+
+<br />
+');@output_buffer.append= ( will_paginate );@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to 'New Photo', new_photo_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `module_eval'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `compile'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:232:in `compile!'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:144:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:125:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:143:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/joe/projects/git/photos/app/controllers/photos_controller.rb:7:in `index'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:414:in `_run__3537626265029962726__process_action__1193065140306951986__callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:121:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:246:in `block in action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/query_cache.rb:64:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `_run__1652432125355683948__call__1318817316582023045__callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:32:in `call_app'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/tagged_logging.rb:22:in `tagged'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/engine.rb:479:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/application.rb:223:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered photos/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (/home/joe/projects/git/photos/app/views/photos/index.html.erb:4: syntax error, unexpected '<', expecting keyword_end
+<table>
+ ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:7: unknown regexp options - th
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:8: syntax error, unexpected '<'
+    <th></th>
+     ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:9: unknown regexp options - th
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:10: syntax error, unexpected '<'
+    <th></th>
+     ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:11: unknown regexp options - tr
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:13: syntax error, unexpected '<'
+<% @photos.each do |photo| @output_buffer.safe_concat('
+ ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:13: syntax error, unexpected keyword_do, expecting keyword_end
+<% @photos.each do |photo| @output_buffer.safe_concat('
+                  ^
+/home/joe/projects/git/photos/app/views/photos/index.html.erb:36: syntax error, unexpected keyword_ensure, expecting $end):
+    1: <h1>Listing photos</h1>
+    2: 
+    3: <%= will_paginate
+    4: <table>
+    5:   <tr>
+    6:     <th>Thumbail</th>
+    7:     <th>Filename</th>
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 05:02:07 +0430
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos" 
+  Rendered photos/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<Array:0x007fcdc02e3b38>):
+    1: <h1>Listing photos</h1>
+    2: 
+    3: <%= will_paginate %>
+    4: <table>
+    5:   <tr>
+    6:     <th>Thumbail</th>
+  app/views/photos/index.html.erb:3:in `_app_views_photos_index_html_erb__3803123360407822228_70260835073680'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /scaffolds.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (1ms)

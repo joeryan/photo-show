@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
-
+<%= image_tag 'photos/' + @photo.filename %>
 <% for column in Photo.content_columns %>
 <p>
+  
   <b><%= column.human_name %></b>
   <%= @photo.send(column.name) %>
 </p>

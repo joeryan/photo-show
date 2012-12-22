@@ -40,3 +40,6 @@ gem 'jquery-rails'
 # include acts_as_list for sorting
 gem 'acts_as_list'
 gem 'acts_as_tree'
+
+# use will_paginate to allow multiple pages
+gem 'will_paginate'
