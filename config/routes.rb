@@ -1,6 +1,8 @@
 Photos::Application.routes.draw do
-  resources :photos
+  resources :photos, :categories, :slideshows
   root :to => "photos#index"
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Photos</title>
+  <title>Photo Share: <%= controller.action_name %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+
+
+
+<body >
+
+  <p class="navbar">
+    &nbsp;
+    <%= link_to 'Photos', :controller => 'photos', :action => 'index' %>
+    &nbsp;
+    <%= link_to 'Categories', :controller => 'categories', :action => 'index' %>
+    &nbsp;
+    <%= link_to 'Slideshows', :controller => 'slideshows', :action => 'index' %>
+  </p>
+
+<p style="color:green"><%= flash[:notice] %></p>
 
 <%= yield %>
 

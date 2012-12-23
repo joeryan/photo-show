@@ -11,6 +11,13 @@
     </div>
   <% end %>
 
+  <p><label for="category_name">Name:</label></br>
+    <%= text_field'category', 'name' %></p>
+
+  <p><label for="category_parent_id">Parent Category</label><br>
+    <%= collection_select(:category, :parent_id, 
+      @categories, :id, :long_name) %></p>
+
   <div class="actions">
     <%= f.submit %>
   </div>

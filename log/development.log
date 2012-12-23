@@ -3077,3 +3077,2246 @@ Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 05:04:49 +0430
 Served asset /photos/baskets_t.jpg - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 17:43:02 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 187ms
+
+ActionController::RoutingError (No route matches {:controller=>"photos", :action=>"list"}):
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___766089241753823035_23857560'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 17:43:22 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionController::RoutingError (No route matches {:controller=>"photos", :action=>"list"}):
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___766089241753823035_23857560'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 17:44:39 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionController::RoutingError (No route matches {:controller=>"photos", :action=>"show"}):
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___766089241753823035_70225907349760'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 17:45:24 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionController::RoutingError (No route matches {:controller=>"categories"}):
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___766089241753823035_70225909935120'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 17:54:50 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionController::RoutingError (No route matches {:controller=>"categories"}):
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___766089241753823035_70225909935120'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /jquery.js - 200 OK (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /application.js - 200 OK (28ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos.js - 200 OK (1ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/train_t.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/lighthouse_t.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/gargoyle_t.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/cat_t.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/cappucino_t.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/building_t.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/bridge_t.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/bear_t.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 17:59:16 +0430
+Served asset /photos/baskets_t.jpg - 200 OK (3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 17:59:22 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/slideshows" for 127.0.0.1 at 2012-12-22 17:59:28 +0430
+
+ActionController::RoutingError (uninitialized constant SlideshowsController):
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__4313827385218910492__call__2020602500619604763__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered categories/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /photos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:00 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 18:00:03 +0430
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 18:00:04 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:37 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/1/edit" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered categories/_form.html.erb (60.0ms)
+  Rendered categories/edit.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 115ms (Views: 113.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:49 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 18:02:56 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/slideshows" for 127.0.0.1 at 2012-12-22 18:41:14 +0430
+
+ActionController::RoutingError (uninitialized constant SlideshowsController):
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__4313827385218910492__call__2020602500619604763__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:00:10 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:00 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:01:03 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:01:04 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:02:06 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:07 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:02:08 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:08 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:09 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:02:11 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:26 +0430
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:27 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:03:59 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:18 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:44 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:04:54 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:04:55 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:05:34 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:07:14 +0430
+Processing by PhotosController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "photos" [0m
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0
+  Rendered photos/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:07:15 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:07:31 +0430
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:08:35 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:16 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:35 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:09:36 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:10:30 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:31 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:10:35 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:15:02 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (8.7ms)
+Compiled scaffolds.css  (111ms)  (pid 2895)
+Compiled application.css  (0ms)  (pid 2895)
+Completed 200 OK in 167ms (Views: 165.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:16:03 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (10.4ms)
+Compiled photos.css  (1ms)  (pid 2895)
+Compiled application.css  (3ms)  (pid 2895)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:17:25 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:19:57 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined local variable or method `thumbnail' for #<#<Class:0x007fbd7ce12f08>:0x007fbd7ca20300>):
+    16:       <%= link_to(image_tag("photos/#{photo.thumbnail}",
+    17:       			:size =>'75x56',
+    18: 			:border => 1,
+    19: 			:id => thumbnail),
+    20: 		url_for(:action => 'show', :id => photo)
+    21:   		)
+    22:       %>
+  app/views/photos/index.html.erb:19:in `block in _app_views_photos_index_html_erb__3801658050802399077_70225908266580'
+  app/views/photos/index.html.erb:13:in `_app_views_photos_index_html_erb__3801658050802399077_70225908266580'
+  app/controllers/photos_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Processing by PhotosController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "photos" 
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" LIMIT 30 OFFSET 0[0m
+  Rendered photos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/train_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/train_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/lighthouse_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/lighthouse_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/gargoyle_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/gargoyle_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/building_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/building_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cat_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/cat_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/cappucino_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/cappucino_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bridge_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/bridge_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/bear_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/bear_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos/baskets_t.jpg" for 127.0.0.1 at 2012-12-22 20:20:17 +0430
+Served asset /photos/baskets_t.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 20:26:13 +0430
+
+SyntaxError (/home/joe/projects/git/photos/app/controllers/categories_controller.rb:5: syntax error, unexpected tASSOC, expecting keyword_end
+    @categories = Category.all, :order => "name"
+                                         ^):
+  activesupport (3.2.9) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__4313827385218910492__call__2020602500619604763__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 20:26:57 +0430
+
+SyntaxError (/home/joe/projects/git/photos/app/models/category.rb:8: syntax error, unexpected tUPLUS, expecting keyword_end
+      parent.ancestors_name + parent.name +':'
+                                           ^):
+  app/controllers/categories_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" ORDER BY name
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  Rendered categories/index.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 119ms (Views: 114.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-22 20:27:25 +0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/3/edit" for 127.0.0.1 at 2012-12-22 20:37:13 +0430
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered categories/_form.html.erb (1.7ms)
+  Rendered categories/edit.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    15:     <%= text_field'category', 'name' %></p>
+    16: 
+    17:   <p><label for="category_parent_id">Parent Category</label><br>
+    18:     <%= collection_select(:category, :parent_id, 
+    19:       @categories, :id, :long_name) %></p>
+    20: 
+    21:   <div class="actions">
+  app/views/categories/_form.html.erb:18:in `block in _app_views_categories__form_html_erb__3332570516049641306_70225907827120'
+  app/views/categories/_form.html.erb:1:in `_app_views_categories__form_html_erb__3332570516049641306_70225907827120'
+  app/views/categories/edit.html.erb:3:in `_app_views_categories_edit_html_erb___1307975984228341046_70225908367080'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)

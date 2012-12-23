@@ -4,12 +4,20 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  backround: #eee;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+.navbar{
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: LightBlue;
 }
 
 pre {
@@ -34,6 +42,8 @@ div {
     margin-bottom: 10px;
   }
 }
+
+
 
 #notice {
   color: green;
